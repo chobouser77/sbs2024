@@ -1,0 +1,13 @@
+/* 기본 셋팅 */
+html{
+    max-width: 1920px;
+    overflow: hidden;
+}
+/* 배경이미지 기본 셋팅 커스텀 */
+.img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+}
+/*  */

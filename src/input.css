@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 기본 셋팅 */
+html{
+  max-width: 1920px;
+  overflow-x: hidden;
+}
+/* 배경이미지 기본 셋팅 커스텀 */
+.img{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0;
+}
+/* 1page 애니메이션들 */
+.phone{
+  animation: phone 2s linear infinite ;
+}
+@keyframes phone {
+  0%{
+      transform: translate(0);
+  }
+  50%{
+      transform: translate(0,30px);
+  }
+  100%{
+      transform: translate(0px);
+  }
+}
+.star1{
+  animation: star1 3s linear infinite ;
+}
+@keyframes star1 {
+  0%{
+      transform: translate(0);
+  }
+  50%{
+      transform: translate(0,-15px);
+  }
+  100%{
+      transform: translate(0px);
+  }
+}
+/* 1page 애니메이션 끝 */

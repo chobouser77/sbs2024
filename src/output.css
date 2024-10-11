@@ -610,3 +610,29 @@ html{
 }
 
 /* 1page 애니메이션 끝 */
+/* 리스트 스타일 커스텀 */
+.dot{
+  text-align: left;
+  padding-left: 15px;
+  position: relative;
+}
+.dot::before{
+  content: "";
+  position: absolute;
+  width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	background-color: white;
+	left: 5px;
+  top: 9px;
+	/* top: calc(50% - 2.5px); */
+}
+/* 리스트 스타일 커스텀 끝 */
+/* 앱 비교 화면의 선들 */
+.line-x{
+  position: relative;
+}
+.line-y{
+  position: relative;
+}
+/* 앱 비교 화면의 선들 끝 */

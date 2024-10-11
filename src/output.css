@@ -646,14 +646,3 @@ html{
   opacity: 40%;
 }
 /* 앱 비교 화면의 선들 끝 */
-/* 2page 이후 보여지면 나타나는 애니메이션 효과 */
-  .ani{
-    opacity: 0;
-    transform:translateY(100px);
-    transition: opacity 2s ease-in , transform 2s ease-in ;
-  }
-  .ani.show{
-    opacity: 1;
-    transform:translateY(0px);
-  }
-/* 2page 이후 보여지면 나타나는 애니메이션 효과 끝*/
